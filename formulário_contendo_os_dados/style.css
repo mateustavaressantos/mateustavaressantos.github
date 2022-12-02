@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5%;
+    background-color: rgb(227, 241, 243);
+    border: 2px solid rgb(48, 102, 202);
+    border-radius: 10%;
+}
+
+#p1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#form1{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(9, 30px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+#formcad{
+    margin-bottom: 50px;
+}
+
+label{
+    grid-column: 1/2;
+    justify-self: end;
+    align-self: center;
+}
+
+input{
+    grid-column: 2/3;
+}
+
+#cadnovo, #limpar, #atualiza{
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.tituloColuna, .infoTabela{
+    padding: 30px;
+    text-align: center;
+}
+
+.input1{
+    height: 30px;
+}
+
+#ddd{
+    width: 75px;
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+th{
+    border-bottom: 1px solid black;
+}
